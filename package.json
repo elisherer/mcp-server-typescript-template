@@ -1,0 +1,26 @@
+{
+    "name": "mcp-server-typescript-template",
+    "description": "An MCP server template using express with SSE written in TypeScript",
+    "main": "server.ts",
+    "scripts": {
+        "dev": "nodemon server.ts",
+        "start": "ts-node server.ts",
+        "test": "echo No tests",
+        "build": "echo No build required",
+        "compile": "tsc"
+    },
+    "private": true,
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.11.0",
+        "express": "4.18.2",
+        "winston": "^3.17.0",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.10.7",
+        "nodemon": "3.0.2",
+        "ts-node": "10.9.2",
+        "typescript": "^5.5.4"
+    }
+}
